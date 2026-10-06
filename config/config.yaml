@@ -1,0 +1,32 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+
+max_retry: 3
+timeout_s: 30
+
+# Retrieval tuning for the plan/service knowledge base.
+#
+# The outer graph forwards this block to the inner domain workflow, which
+# republishes it into inner state so RetrieveNode / RerankFilterNode read the
+# live values (module defaults mirror the numbers below and are only used when
+# a node is exercised outside a compiled graph).
+#
+# top_k            how many passages survive the relevance cut (1-20)
+# score_threshold  minimum relevance score a passage must reach (0.0-1.0)
+# kb_path          repo-relative path of the bundled sample catalog; a caller
+#                  may override the corpus per invocation by supplying
+#                  input_context.catalog_documents instead
+# hybrid_search    reserved for a vector-store backend; the bundled
+#                  deterministic keyword retriever ignores it
+retrieval:
+  top_k: 5
+  score_threshold: 0.70
+  kb_path: "config/kb/telecom_kb.json"
+  hybrid_search: false
+
+# Answer-synthesis settings. The bundled answer builder is deterministic and
+# makes no model call, so these values are forwarded but unused; they are the
+# settings a model-backed answer node would read.
+llm:
+  temperature: 0.1
+  max_tokens: 2500

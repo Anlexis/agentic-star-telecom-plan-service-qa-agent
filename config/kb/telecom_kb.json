@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Unlimited Plus plan pricing and monthly data allowance",
+    "category": "plan_pricing",
+    "source": "TEL Consumer Plan Catalog, Unlimited Plus tier",
+    "tags": ["unlimited", "plus", "plan", "pricing", "price", "monthly", "data", "allowance", "cost"],
+    "content": "The Unlimited Plus plan costs ¥6,980 per month before the autopay discount and includes unlimited domestic data, unlimited calls, and 30GB of high-speed mobile hotspot tethering. The advertised monthly price already includes the base 5G network access fee, so no separate 5G surcharge applies. Data allowance does not roll over month to month, and hotspot speeds may be reduced after 30GB of tethering use in a single billing cycle."
+  },
+  {
+    "id": "kb-002",
+    "title": "5G access and mobile hotspot tethering across Plus-tier plans",
+    "category": "plan_features",
+    "source": "TEL Consumer Plan Catalog, Plus-tier feature summary",
+    "tags": ["5g", "hotspot", "tethering", "plus", "plan", "features", "data"],
+    "content": "All Plus-tier plans (Unlimited Plus, Family Plus, Business Plus) include standard 5G network access with no additional surcharge, alongside a monthly hotspot tethering allowance shared from the plan's data pool. 5G availability depends on device compatibility and coverage area; a plan automatically falls back to 4G LTE where 5G is not yet available. Hotspot data is metered from the same pool as regular data and is not unlimited even on an unlimited-data plan."
+  },
+  {
+    "id": "kb-003",
+    "title": "Minimum contract term and early termination fee",
+    "category": "contract_terms",
+    "source": "TEL Terms of Service, contract commitment section",
+    "tags": ["contract", "term", "early", "termination", "fee", "cancellation"],
+    "content": "Standard postpaid plans carry no mandatory minimum contract term when purchased at full retail device price. Plans bundled with a subsidized or installment-financed device carry a 24-month device commitment; ending service before the commitment completes triggers the remaining unpaid device balance as an early termination charge, not a separate cancellation fee. Month-to-month plans without a device subsidy can be cancelled at any time with no penalty."
+  },
+  {
+    "id": "kb-004",
+    "title": "Billing cycle, due dates, and the autopay discount",
+    "category": "billing",
+    "source": "TEL Terms of Service, billing and payment section",
+    "tags": ["billing", "cycle", "due", "dates", "autopay", "discount", "payment"],
+    "content": "Monthly bills are generated on a fixed billing date assigned at account activation and are due 14 days after the statement is issued. Customers who enroll in autopay with a registered payment method receive a ¥550 monthly discount per line, applied automatically on the billing cycle following enrollment. A missed autopay charge suspends the discount for that billing cycle only; the discount resumes once the pending balance is settled."
+  },
+  {
+    "id": "kb-005",
+    "title": "SIM activation and number porting procedure",
+    "category": "service_procedures",
+    "source": "TEL Service Handbook, account setup procedures",
+    "tags": ["sim", "activation", "porting", "number", "procedure", "setup"],
+    "content": "New SIM activation completes automatically within 30 minutes of the account being provisioned; the device must be restarted once the activation confirmation is received. Porting an existing number from another carrier requires the account number and PIN from the losing carrier and typically completes within 24 hours; service on the old SIM continues until porting finalizes, so the line is never without coverage during the transfer."
+  },
+  {
+    "id": "kb-006",
+    "title": "International roaming rates and how to enable roaming",
+    "category": "roaming",
+    "source": "TEL Service Handbook, international roaming section",
+    "tags": ["roaming", "international", "rates", "enable", "travel", "data"],
+    "content": "International roaming is disabled by default and must be enabled from the account portal or by contacting customer service at least 24 hours before travel. Roaming day-passes cover data, calls, and texts for a flat daily rate in supported countries; pay-per-use rates apply automatically in countries without a day-pass option. Roaming charges appear on the next billing cycle and are not eligible for the autopay discount."
+  },
+  {
+    "id": "kb-007",
+    "title": "Device installment plan and trade-in credit terms",
+    "category": "device_terms",
+    "source": "TEL Device Financing Agreement summary",
+    "tags": ["device", "installment", "plan", "trade-in", "credit", "financing"],
+    "content": "Eligible devices can be financed over 24 or 36 equal monthly installments with zero interest, billed alongside the monthly service charge. Trade-in credit is assessed against the device's condition and model at the time of trade-in and is applied as a bill credit spread over the remaining installment term, not as an upfront discount. Paying off the installment balance early does not accelerate or increase the trade-in credit already scheduled."
+  },
+  {
+    "id": "kb-008",
+    "title": "5G and LTE network coverage commitment",
+    "category": "network_coverage",
+    "source": "TEL Network Coverage Disclosure",
+    "tags": ["5g", "lte", "coverage", "network", "commitment", "area"],
+    "content": "5G coverage is available in designated metropolitan and suburban areas listed on the published coverage map, with continued LTE coverage as the baseline network everywhere service is offered. Coverage maps show modeled outdoor signal strength and do not guarantee in-building or below-ground reception. Coverage areas are reviewed and expanded quarterly as new network sites are activated."
+  },
+  {
+    "id": "kb-009",
+    "title": "Technical support and outage reporting channels",
+    "category": "support",
+    "source": "TEL Service Handbook, customer support section",
+    "tags": ["support", "technical", "outage", "report", "help", "channel"],
+    "content": "Technical support is available through the account portal chat, the support phone line, and in person at retail locations; portal chat and phone support operate 24 hours a day. A suspected network outage can be reported from the portal's outage-report tool, which cross-checks the report against known incidents in the area and returns an estimated restoration time when one is available. Device-specific troubleshooting steps are also available in the self-service knowledge base."
+  },
+  {
+    "id": "kb-010",
+    "title": "Plan cancellation and final bill settlement",
+    "category": "cancellation",
+    "source": "TEL Terms of Service, cancellation section",
+    "tags": ["cancellation", "cancel", "final", "bill", "settlement", "closure"],
+    "content": "Cancelling service can be requested through the account portal or by contacting customer service and takes effect at the end of the current billing cycle unless an immediate cancellation is explicitly requested. Any outstanding device installment balance or early termination charge becomes due on the final bill, which is issued within 5 business days of the cancellation effective date. Prepaid balances and unused plan credits are not refunded upon cancellation."
+  }
+]
